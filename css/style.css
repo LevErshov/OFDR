@@ -3181,5 +3181,5 @@ ul.breadcrumb li + li:last-child:after {
 
 @media (min-width: 767.98px){
 
-  ._webp .fullscreen-block{ background: url(../img/fullscreen-block/bg1.jpg) no-repeat right 0; }
+  .fullscreen-block{ background: url(../img/fullscreen-block/bg1.jpg) no-repeat right 0; }
 }
