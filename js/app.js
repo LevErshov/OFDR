@@ -72,7 +72,7 @@ if (iconMenu != null) {
 };
 function menu_close() {
 	let iconMenu = document.querySelector(".icon-menu");
-	let menuBody = document.querySelector(".header__navigation");
+	let menuBody = document.querySelector("");
 	iconMenu.classList.remove("_active");
 	menuBody.classList.remove("_active");
 }

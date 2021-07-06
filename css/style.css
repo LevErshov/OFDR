@@ -2600,13 +2600,11 @@ ul.breadcrumb li + li:last-child:after {
   }
 
   .header__navigation {
-    display: block;
     text-align: center;
     position: fixed;
-    top: -100%;
-    left: -30px;
-    padding: 220px 15px 40px 15px;
-    width: 100vh;
+    top: 0;
+    left: -100%;
+    width: 100%;
     height: 100%;
     -webkit-transition: all .4s ease-in 0s;
     -o-transition: all .4s ease-in 0s;
@@ -2615,7 +2613,7 @@ ul.breadcrumb li + li:last-child:after {
   }
 
   .header__navigation._active {
-    top: 0;
+    left: 0;
   }
 
   .header__list li:not(:last-child) {
@@ -2992,7 +2990,7 @@ ul.breadcrumb li + li:last-child:after {
 
 @media (max-width: 500px) {
   .social {
-    margin-top: 0px;
+    margin-top: 25px;
     margin-left: 40px;
   }
 
