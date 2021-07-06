@@ -2600,12 +2600,13 @@ ul.breadcrumb li + li:last-child:after {
   }
 
   .header__navigation {
+    display: block;
     text-align: center;
     position: fixed;
     top: -100%;
-    left: 0;
+    left: -30px;
     padding: 220px 15px 40px 15px;
-    width: 100%;
+    width: 100vh;
     height: 100%;
     -webkit-transition: all .4s ease-in 0s;
     -o-transition: all .4s ease-in 0s;
@@ -2991,7 +2992,7 @@ ul.breadcrumb li + li:last-child:after {
 
 @media (max-width: 500px) {
   .social {
-    margin-top: 25px;
+    margin-top: 0px;
     margin-left: 40px;
   }
 
@@ -3181,5 +3182,5 @@ ul.breadcrumb li + li:last-child:after {
 
 @media (min-width: 767.98px){
 
-  .fullscreen-block{ background: url(../img/fullscreen-block/bg1.jpg) no-repeat right 0; }
+  ._webp .fullscreen-block{ background: url(../img/fullscreen-block/bg1.webp) no-repeat right 0; }
 }
